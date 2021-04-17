@@ -1,0 +1,25 @@
+export default (req, res) => {
+  res.status(200).json([
+    {
+      "id": 6,
+      "name": "Akita",
+      "temperament": "Docile, Alert, Responsive, Dignified, Composed, Friendly, Receptive, Faithful, Courageous"
+    },
+    {
+      "id": 16,
+      "name": "American Staffordshire Terrier",
+      "temperament": "Tenacious, Friendly, Devoted, Loyal, Attentive, Courageous"
+    },
+    {
+      "id": 81,
+      "name": "Chow Chow",
+      "temperament": "Aloof, Loyal, Independent, Quiet"
+    },
+    {
+      "id": 121,
+      "name": "Golden Retriever",
+      "temperament": "Intelligent, Kind, Reliable, Friendly, Trustworthy, Confident"
+    }
+  ]
+  )
+}
