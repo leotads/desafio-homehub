@@ -50,11 +50,13 @@ export default function Header(props) {
           </Typography>
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
-            <IconButton aria-label="show 4 new mails" color="inherit">
-              <Badge badgeContent={adoptionContext.adoptions.length} color="secondary">
-                <StorefrontIcon />
-              </Badge>
-            </IconButton>
+            <Link href={'/pet/adoptions'}>
+              <IconButton aria-label="show 4 new mails" color="inherit">
+                <Badge badgeContent={adoptionContext.adoptions.length} color="secondary">
+                  <StorefrontIcon />
+                </Badge>
+              </IconButton>
+            </Link>
           </div>
         </Toolbar>
       </AppBar>
